@@ -1,0 +1,70 @@
+.header {
+	padding: 40px;
+	font-family: sans-serif;
+	text-align: center;
+	background: #1abc9c;
+	color: white;
+	font-size: 20px;
+}
+
+p {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	/* text-indent: 50px; */
+	text-align: justify;
+	font-size: 18px;
+	letter-spacing: 1px;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 1%;
+}
+
+.p {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	/* text-indent: 50px; */
+	text-align: justify;
+	font-size: 18px;
+	letter-spacing: 1px;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 1%;
+}
+.a {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	/* text-indent: 50px; */
+	text-align: justify;
+	font-size: 18px;
+	letter-spacing: 1px;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 1%;
+}
+
+#chart text {
+	fill: red;
+	font: 10px sans-serif;
+	text-anchor: end;
+}
+
+.axis text {
+	font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	/*stroke: #fff;*/
+	shape-rendering: crispEdges;
+}
+
+body {
+	/* background: #1a1a1a; */
+	color: #eaeaea;
+	padding: 10px;
+	background-color: black;
+}
+
+path {
+	stroke: steelblue;
+	stroke-width: 2;
+	fill: none;
+}
