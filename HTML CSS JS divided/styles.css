@@ -1,11 +1,22 @@
 html {
 	scroll-behavior: smooth;
 	padding-bottom: 5px;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+h2 {
+	font-size: 18px;
+}
+
+.grid{
+    display: inline-grid;
+    padding-left: 10%;
+    padding-right: 50%;
+    grid-column-gap: 50%;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+}
 .header {
 	padding: 40px;
-	font-family: sans-serif;
 	text-align: center;
 	background: #1abc9c;
 	color: white;
@@ -13,13 +24,13 @@ html {
 }
 
 .inPageLink {
-    display: flex; 
-    padding-left: 25%;
-    padding-right: 25%;
-    justify-content: center;
-    align-items: center;
-    height: fit-content;
-    font-size: 20px;
+	display: flex;
+	padding-left: 25%;
+	padding-right: 25%;
+	justify-content: center;
+	align-items: center;
+	height: fit-content;
+	font-size: 20px;
 }
 
 p {
