@@ -1,1 +1,90 @@
-/* TODO */
+html {
+	scroll-behavior: smooth;
+	padding-bottom: 5px;
+}
+
+.header {
+	padding: 40px;
+	font-family: sans-serif;
+	text-align: center;
+	background: #1abc9c;
+	color: white;
+	font-size: 20px;
+}
+
+.inPageLink {
+    display: flex; 
+    padding-left: 25%;
+    padding-right: 25%;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    font-size: 20px;
+}
+
+p {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	/* text-indent: 50px; */
+	text-align: justify;
+	font-size: 18px;
+	padding-left: 25%;
+	padding-right: 25%;
+	padding-top: 1%;
+}
+
+/* .chart {
+	height: 600px;
+    width: 600px;
+} */
+
+.footnote {
+	/* outline-offset: 10px */
+	/* border-style: inset; */
+	margin: 5%;
+	padding-left: 20%;
+	padding-right: 20%;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	/* text-indent: 50px; */
+	text-align: justify;
+	font-size: 18px;
+}
+
+.a {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	/* text-indent: 50px; */
+	text-align: justify;
+	font-size: 18px;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 1%;
+}
+
+#chart text {
+	fill: red;
+	font: 10px sans-serif;
+	text-anchor: end;
+}
+
+.axis text {
+	font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	/*stroke: #fff;*/
+	shape-rendering: crispEdges;
+}
+
+body {
+	/* background: #1a1a1a; */
+	color: #eaeaea;
+	padding: 10px;
+	background-color: black;
+}
+
+path {
+	stroke: steelblue;
+	stroke-width: 2;
+	fill: none;
+}
